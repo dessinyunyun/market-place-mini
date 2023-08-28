@@ -20,7 +20,7 @@ export default function Home() {
     if (!token) {
       router.push("/auth");
     }
-  }, [state]);
+  }, [state, router]);
 
   useEffect(() => {
     console.log("tes");
